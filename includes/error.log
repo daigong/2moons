@@ -1,0 +1,63 @@
+[09-Mar-2012 13:34:01] PHP Fatal error:  Exception: Connection to database failed: Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+
+
+#0 E:\Server\xampp\htdocs\2moons-svn\includes\common.php(55): Database->__construct()
+#1 E:\Server\xampp\htdocs\2moons-svn\index.php(46): require('E:\Server\xampp...')
+#2 {main} in E:\Server\xampp\htdocs\2moons-svn\includes\GeneralFunctions.php on line 481
+[09-Mar-2012 13:40:12] PHP Fatal error:  Exception: Syntax Error in template "E:/Server/xampp/htdocs/2moons-svn/styles/templates\info_overview.tpl"  on line 33 "&lt;th&gt;{if $id == 12}{lang}in_used_deuter{/lang}{elseif $id == 4}{lang}in_prod_energy{/lang}{else}{lang}in_used_energy{/lang}{/if}&lt;/th&gt;" unclosed {lang} tag
+
+#0 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {lang}...')
+#1 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php(425): Smarty_Internal_Compile_Ifclose->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php(223): in E:\Server\xampp\htdocs\2moons-svn\includes\GeneralFunctions.php on line 481
+[09-Mar-2012 13:40:21] PHP Fatal error:  Exception: Syntax Error in template "E:/Server/xampp/htdocs/2moons-svn/styles/templates\info_overview.tpl"  on line 33 "&lt;th&gt;{if $id == 12}{lang}in_used_deuter{/lang}{elseif $id == 4}{lang}in_prod_energy{/lang}{else}{lang}in_used_energy{/lang}{/if}&lt;/th&gt;" unclosed {lang} tag
+
+#0 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {lang}...')
+#1 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php(425): Smarty_Internal_Compile_Ifclose->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php(223): in E:\Server\xampp\htdocs\2moons-svn\includes\GeneralFunctions.php on line 481
+[09-Mar-2012 13:40:26] PHP Fatal error:  Exception: Syntax Error in template "E:/Server/xampp/htdocs/2moons-svn/styles/templates\info_overview.tpl"  on line 33 "&lt;th&gt;{if $id == 12}{lang}in_used_deuter{/lang}{elseif $id == 4}{lang}in_prod_energy{/lang}{else}{lang}in_used_energy{/lang}{/if}&lt;/th&gt;" unclosed {lang} tag
+
+#0 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_compilebase.php(166): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {lang}...')
+#1 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_compile_if.php(197): Smarty_Internal_CompileBase->closeTag(Object(Smarty_Internal_SmartyTemplateCompiler), Array)
+#2 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php(425): Smarty_Internal_Compile_Ifclose->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 E:\Server\xampp\htdocs\2moons-svn\includes\libs\Smarty\sysplugins\smarty_internal_templatecompilerbase.php(223): in E:\Server\xampp\htdocs\2moons-svn\includes\GeneralFunctions.php on line 481
+[26-Mar-2012 20:43:32] PHP Fatal error:  main() [<a href='function.require'>function.require</a>]: Failed opening required 'E:/Server/xampp/htdocs/2moons-1svn/includes/config.php' (include_path='.;E:\Server\xampp\php\PEAR') in E:\Server\xampp\htdocs\2moons-1svn\includes\common.php on line 88
+[26-Mar-2012 21:20:07] PHP Fatal error:  Call to a member function fetch_array() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\classes\class.Database.php on line 149
+[10-Apr-2012 21:59:18] PHP Fatal error:  Call to a member function fetch_array() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\classes\class.Database.php on line 149
+[10-Apr-2012 21:59:18] PHP Stack trace:
+[10-Apr-2012 21:59:18] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:0
+[10-Apr-2012 21:59:18] PHP   2. Database->fetch_array() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:109
+[15-Apr-2012 14:59:30] PHP Fatal error:  Call to a member function fetch_array() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\classes\class.Database.php on line 149
+[15-Apr-2012 14:59:30] PHP Stack trace:
+[15-Apr-2012 14:59:30] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:0
+[15-Apr-2012 14:59:30] PHP   2. Database->fetch_array() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:109
+[30-Apr-2012 11:07:59] PHP Fatal error:  Call to a member function fetch_array() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\classes\class.Database.php on line 149
+[30-Apr-2012 11:07:59] PHP Stack trace:
+[30-Apr-2012 11:07:59] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:0
+[30-Apr-2012 11:07:59] PHP   2. Database->fetch_array() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:109
+[30-Apr-2012 13:47:28] PHP Parse error:  syntax error, unexpected ')' in E:\Server\xampp\htdocs\2moons-1svn\includes\classes\missions\MissionCaseExpedition.php on line 368
+[30-Apr-2012 13:47:28] PHP Stack trace:
+[30-Apr-2012 13:47:28] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\game.php:0
+[30-Apr-2012 13:47:28] PHP   2. require() E:\Server\xampp\htdocs\2moons-1svn\game.php:36
+[30-Apr-2012 13:47:28] PHP   3. require() E:\Server\xampp\htdocs\2moons-1svn\includes\common.php:114
+[30-Apr-2012 13:47:28] PHP   4. FlyingFleetHandler->run() E:\Server\xampp\htdocs\2moons-1svn\includes\FleetHandler.php:41
+[13-May-2012 18:21:28] PHP Fatal error:  Call to a member function fetch_array() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\classes\class.Database.php on line 149
+[13-May-2012 18:21:28] PHP Stack trace:
+[13-May-2012 18:21:28] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:0
+[13-May-2012 18:21:28] PHP   2. Database->fetch_array() E:\Server\xampp\htdocs\2moons-1svn\cronjobs.php:109
+[13-May-2012 18:26:39] PHP Fatal error:  Class 'FlyingFleetsTable' not found in E:\Server\xampp\htdocs\2moons-1svn\includes\pages\game\class.ShowPhalanxPage.php on line 63
+[13-May-2012 18:26:39] PHP Stack trace:
+[13-May-2012 18:26:39] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\game.php:0
+[13-May-2012 18:26:39] PHP   2. ShowPhalanxPage->show() E:\Server\xampp\htdocs\2moons-1svn\game.php:66
+[13-May-2012 18:27:28] PHP Fatal error:  Call to a member function loadscript() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\pages\game\class.ShowPhalanxPage.php on line 68
+[13-May-2012 18:27:28] PHP Stack trace:
+[13-May-2012 18:27:28] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\game.php:0
+[13-May-2012 18:27:28] PHP   2. ShowPhalanxPage->show() E:\Server\xampp\htdocs\2moons-1svn\game.php:66
+[13-May-2012 18:27:28] PHP Fatal error:  Call to a member function loadscript() on a non-object in E:\Server\xampp\htdocs\2moons-1svn\includes\pages\game\class.ShowPhalanxPage.php on line 68
+[13-May-2012 18:27:28] PHP Stack trace:
+[13-May-2012 18:27:28] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\game.php:0
+[13-May-2012 18:27:28] PHP   2. ShowPhalanxPage->show() E:\Server\xampp\htdocs\2moons-1svn\game.php:66
+[13-May-2012 18:37:35] PHP Parse error:  syntax error, unexpected ',' in E:\Server\xampp\htdocs\2moons-1svn\includes\pages\game\class.ShowPhalanxPage.php on line 73
+[13-May-2012 18:37:35] PHP Stack trace:
+[13-May-2012 18:37:35] PHP   1. {main}() E:\Server\xampp\htdocs\2moons-1svn\game.php:0
